@@ -1,22 +1,27 @@
-# Purpose of This Directory
+# Building Applications Using Foundation Models - Exercises
 
-This directory should contain any files and instructions necessary for exercises created for this lesson.
+This directory contains hands-on exercises for building real-world applications using foundation models. The exercises focus on practical implementation of LLM-driven features and end-to-end application development.
+
+## Exercise: LLM Spam Classifier Lab
+
+### Overview
+In this exercise, you will build a spam detection system using a foundation model. You'll learn to frame product requirements, prepare datasets, design effective prompts, and evaluate model performance for a classification task.
 
 ## Folder Structure
 
-Each exercise should be contained in its own folder using the naming convention of `concept#-name-of-concept`. See example below:
-
 ```
 exercises
-    |_ concept1-hello-world
-    |   |_ starter
-    |   |   |_ exercise-files
-    |   |_ solution
-    |   |   |_ solution_files
-    |_ concept2-foo-bar
-    |   |_ starter
-    |   |   |_ exercise-files
-    |   |_ solution
-    |   |   |_ solution_files
+    |_ starter
+    |   |_ build-a-spam-classifier-using-a-foundation-model-starter.ipynb
+    |   |_ module-5-building-applications-using-foundation-models-starter.ipynb
+    |   |_ README.md
+    |_ solution
+    |   |_ build-a-spam-classifier-using-a-foundation-model-solution.ipynb
+    |   |_ demo.ipynb
+    |   |_ README.md
     |_ README.md
 ```
+
+### Exercise Structure
+- **Starter Materials** (`starter/`): Contains the initial notebook and sample datasets
+- **Solution Materials** (`solution/`): Complete reference implementation and best practices

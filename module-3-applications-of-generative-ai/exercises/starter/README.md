@@ -1,3 +1,7 @@
-# Purpose of this Folder
+# Starter Materials - LLM-Assisted Merge Sort Workshop
 
-This folder should contain the starter code and instructions for the exercise.
+This directory contains the starting materials for the LLM-Assisted Merge Sort Workshop exercise.
+
+## Contents
+- `llm-assisted-merge-sort-starter.ipynb` - Main exercise notebook with step-by-step instructions
+- Additional assets and resources as needed

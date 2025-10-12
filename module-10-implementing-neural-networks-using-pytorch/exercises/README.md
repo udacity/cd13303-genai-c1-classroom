@@ -1,22 +1,26 @@
-# Purpose of This Directory
+# Implementing Neural Networks Using PyTorch - Exercises
 
-This directory should contain any files and instructions necessary for exercises created for this lesson.
+This directory contains hands-on exercises for building and training neural networks using PyTorch. The exercises focus on implementing various network architectures and optimization techniques.
+
+## Exercise: Optimizer Bakeoff
+
+### Overview
+In this exercise, you will implement and compare different optimization algorithms (SGD, Adam, RMSprop, etc.) on various neural network architectures. You'll analyze convergence behavior, training speed, and final performance to understand when to use different optimizers.
 
 ## Folder Structure
 
-Each exercise should be contained in its own folder using the naming convention of `concept#-name-of-concept`. See example below:
-
 ```
 exercises
-    |_ concept1-hello-world
-    |   |_ starter
-    |   |   |_ exercise-files
-    |   |_ solution
-    |   |   |_ solution_files
-    |_ concept2-foo-bar
-    |   |_ starter
-    |   |   |_ exercise-files
-    |   |_ solution
-    |   |   |_ solution_files
+    |_ starter
+    |   |_ optimizer-bakeoff-starter.ipynb
+    |   |_ README.md
+    |_ solution
+    |   |_ optimizer-bakeoff-solution.ipynb
+    |   |_ demo.ipynb
+    |   |_ README.md
     |_ README.md
 ```
+
+### Exercise Structure
+- **Starter Materials** (`starter/`): Contains neural network implementation starter code and datasets
+- **Solution Materials** (`solution/`): Complete implementations with optimizer comparisons and analysis

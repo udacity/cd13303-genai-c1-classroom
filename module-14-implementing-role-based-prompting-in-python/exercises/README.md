@@ -1,22 +1,23 @@
-# Purpose of This Directory
+# Implementing Role-Based Prompting in Python - Exercises
 
-This directory should contain any files and instructions necessary for exercises created for this lesson.
+This directory contains hands-on exercises for learning advanced prompting strategies that leverage role-based interactions. The exercises focus on building sophisticated prompt systems with role assignments.
+
+## Exercise: Role-Based Prompting Workshop
+
+### Overview
+In this exercise, you will build a comprehensive role-based prompting system that demonstrates different interaction patterns. You'll create multiple personas, implement conversation flows, and experiment with role-specific prompt engineering techniques.
 
 ## Folder Structure
 
-Each exercise should be contained in its own folder using the naming convention of `concept#-name-of-concept`. See example below:
-
 ```
 exercises
-    |_ concept1-hello-world
-    |   |_ starter
-    |   |   |_ exercise-files
-    |   |_ solution
-    |   |   |_ solution_files
-    |_ concept2-foo-bar
-    |   |_ starter
-    |   |   |_ exercise-files
-    |   |_ solution
-    |   |   |_ solution_files
+    |_ starter
+    |   |_ README.md
+    |_ solution
+    |   |_ README.md
     |_ README.md
 ```
+
+### Exercise Structure
+- **Starter Materials** (`starter/`): Contains role-based prompting implementation starter code and templates
+- **Solution Materials** (`solution/`): Complete role-based conversation system with multiple personas

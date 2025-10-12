@@ -1,22 +1,29 @@
-# Purpose of This Directory
+# Reinforcement Fine-Tuning on Foundation Models - Exercises
 
-This directory should contain any files and instructions necessary for exercises created for this lesson.
+This directory contains hands-on exercises for learning advanced fine-tuning techniques using reinforcement learning. The exercises focus on implementing GRPO and RLHF for language model alignment.
+
+## Exercise: Teach an LLM to Spell with GRPO
+
+### Overview
+In this exercise, you will implement Group Relative Policy Optimization to fine-tune a language model for spelling correction. You'll build a reward model based on spelling accuracy, implement the GRPO algorithm, and train the model to improve its spelling correction capabilities through reinforcement learning.
 
 ## Folder Structure
 
-Each exercise should be contained in its own folder using the naming convention of `concept#-name-of-concept`. See example below:
-
 ```
 exercises
-    |_ concept1-hello-world
-    |   |_ starter
-    |   |   |_ exercise-files
-    |   |_ solution
-    |   |   |_ solution_files
-    |_ concept2-foo-bar
-    |   |_ starter
-    |   |   |_ exercise-files
-    |   |_ solution
-    |   |   |_ solution_files
+    |_ starter
+    |   |_ teach-an-llm-to-spell-with-grpo-starter.ipynb
+    |   |_ README.md
+    |_ solution
+    |   |_ teach-an-llm-to-spell-with-grpo-solution.ipynb
+    |   |_ demo.ipynb
+    |   |_ data/
+    |   |   |_ counting-grpo/
+    |   |   |_ spelling-grpo/
+    |   |_ README.md
     |_ README.md
 ```
+
+### Exercise Structure
+- **Starter Materials** (`starter/`): Contains GRPO implementation starter code and reward model framework
+- **Solution Materials** (`solution/`): Complete reinforcement fine-tuning pipeline with GRPO and evaluation metrics

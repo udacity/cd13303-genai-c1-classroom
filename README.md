@@ -6,48 +6,6 @@ This repository contains the complete course materials for the Udacity Generativ
 
 The Generative AI Nanodegree program provides comprehensive training in modern generative AI technologies, from foundational concepts to advanced implementation techniques. Students will learn to build, evaluate, and deploy generative AI applications using state-of-the-art tools and frameworks.
 
-## Course Modules
-
-### Module 3: Applications of Generative AI
-- **Focus**: Translating real-world problems into generative AI workflows
-- **Exercise**: LLM-Assisted Merge Sort Workshop
-- **Skills**: Prompt engineering, code generation, iterative refinement
-
-### Module 5: Building Applications Using Foundation Models
-- **Focus**: Turning general-purpose foundation models into targeted applications
-- **Exercise**: LLM Spam Classifier Lab
-- **Skills**: Application design, dataset preparation, prompt optimization
-
-### Module 8: Implementing Evaluations for Generative AI Models
-- **Focus**: Comprehensive evaluation strategies for generative AI systems
-- **Exercise**: Gen AI Evaluation Medley
-- **Skills**: Model evaluation, metrics design, quality assessment
-
-### Module 10: Implementing Neural Networks Using PyTorch
-- **Focus**: Deep learning fundamentals and neural network implementation
-- **Exercise**: Optimizer Bakeoff
-- **Skills**: PyTorch, optimization algorithms, neural network training
-
-### Module 12: Generating Text Using LLMs
-- **Focus**: Text generation techniques and language model applications
-- **Exercise**: Generating One Token at a Time
-- **Skills**: Text generation, tokenization, language modeling
-
-### Module 14: Implementing Role-Based Prompting in Python
-- **Focus**: Advanced prompting strategies and role-based interactions
-- **Exercise**: Role-based prompting implementations
-- **Skills**: Prompt engineering, system design, conversation management
-
-### Module 16: Applying PEFT on Foundation Models
-- **Focus**: Parameter-Efficient Fine-Tuning techniques
-- **Exercise**: Teach an LLM to Spell with SFT
-- **Skills**: Fine-tuning, adapter methods, model adaptation
-
-### Module 18: Reinforcement Fine-Tuning on Foundation Models
-- **Focus**: Reinforcement learning for language model optimization
-- **Exercise**: Teach an LLM to Spell with GRPO
-- **Skills**: RLHF, policy optimization, reward modeling
-
 ## Repository Structure
 
 ```
@@ -97,42 +55,6 @@ The Generative AI Nanodegree program provides comprehensive training in modern g
 └── README.md
 ```
 
-## Getting Started
-
-1. **Clone the repository**:
-   ```bash
-   git clone <repository-url>
-   cd cd13303-genai-c1-classroom
-   ```
-
-2. **Navigate to a specific module**:
-   ```bash
-   cd module-3-applications-of-generative-ai
-   ```
-
-3. **Read the module README** for specific setup instructions and prerequisites
-
-4. **Start with the exercises**:
-   - Open the `starter/` folder for hands-on exercises
-   - Review the `solution/` folder for reference implementations
-
-## Prerequisites
-
-- **Python 3.10+** with Jupyter Lab/Notebook support
-- **Access to LLM APIs** (OpenAI)
-- **Basic Python knowledge** including data handling and testing
-- **PyTorch** (for neural network modules)
-- **Familiarity with machine learning concepts**
-
-## Key Learning Outcomes
-
-By completing this course, students will be able to:
-
-- **Identify opportunities** where generative AI can accelerate software development
-- **Design and implement** end-to-end foundation model workflows
-- **Evaluate and optimize** generative AI model performance
-- **Apply advanced techniques** including fine-tuning and reinforcement learning
-- **Build production-ready** generative AI applications
 
 ## Course Materials
 

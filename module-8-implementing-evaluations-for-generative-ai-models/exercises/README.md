@@ -1,22 +1,26 @@
-# Purpose of This Directory
+# Implementing Evaluations for Generative AI Models - Exercises
 
-This directory should contain any files and instructions necessary for exercises created for this lesson.
+This directory contains hands-on exercises for building comprehensive evaluation frameworks for generative AI systems. The exercises focus on implementing multiple evaluation metrics and assessment methodologies.
+
+## Exercise: Gen AI Evaluation Medley
+
+### Overview
+In this exercise, you will build a comprehensive evaluation suite that tests generative AI models across multiple dimensions including fluency, relevance, safety, and factual accuracy. You'll implement both automated metrics and human evaluation methodologies.
 
 ## Folder Structure
 
-Each exercise should be contained in its own folder using the naming convention of `concept#-name-of-concept`. See example below:
-
 ```
 exercises
-    |_ concept1-hello-world
-    |   |_ starter
-    |   |   |_ exercise-files
-    |   |_ solution
-    |   |   |_ solution_files
-    |_ concept2-foo-bar
-    |   |_ starter
-    |   |   |_ exercise-files
-    |   |_ solution
-    |   |   |_ solution_files
+    |_ starter
+    |   |_ gen-ai-evaluation-medley-starter.ipynb
+    |   |_ README.md
+    |_ solution
+    |   |_ gen-ai-evaluation-medley-solution.ipynb
+    |   |_ demo.ipynb
+    |   |_ README.md
     |_ README.md
 ```
+
+### Exercise Structure
+- **Starter Materials** (`starter/`): Contains evaluation framework starter code and sample datasets
+- **Solution Materials** (`solution/`): Complete evaluation pipeline with multiple metric implementations
