@@ -1,53 +1,59 @@
-# README Template
+# GenAI C1 Project: Teach an LLM to Reason
 
-Below is a template provided for use when building your README file for students.
+This project guides you through teaching an instruction-tuned LLM to reason step‑by‑step using GRPO (Group Relative Policy Optimization). The model learns to break a word into letters and count a specific letter.
 
-# Project Title
+Key notebooks and files:
+- `project/starter/gen_ai_fundamentals_project_starter.ipynb`
+- `project/solution/gen_ai_fundamentals_project_solution.ipynb`
+- `requirements.txt`
 
-Project description goes here.
+## Hardware
 
-## Getting Started
+- Runs on a single "T4 Tesla" GPU with 16GB VRAM (e.g., AWS `g4dn.xlarge`).
 
-Instructions for how to get a copy of the project running on your local machine.
+## NVIDIA Driver and CUDA (tested)
 
-### Dependencies
+- OS: Ubuntu 24.04 (x86_64)
+- NVIDIA driver: 575.57.08
+- CUDA: 12.9.1
 
+Install driver + CUDA toolkit only if you are sure drivers/CUDA are not already installed on your system, or if you are using an ephemeral cloud instance that resets between sessions:
 ```
-Examples here
-```
-
-### Installation
-
-Step by step explanation of how to get a dev environment running.
-
-List out the steps
-
-```
-Give an example here
+sudo apt update && sudo apt install gcc make -y
+wget https://developer.download.nvidia.com/compute/cuda/12.9.1/local_installers/cuda_12.9.1_575.57.08_linux.run
+sudo sh cuda_12.9.1_575.57.08_linux.run --silent --toolkit --driver --no-drm
 ```
 
-## Testing
+## Other Dependencies
 
-Explain the steps needed to run any automated tests
-
-### Break Down Tests
-
-Explain what each test does and why
-
+Install uv and Python headers:
 ```
-Examples here
+curl -LsSf https://astral.sh/uv/install.sh | sh
+sudo apt update && sudo apt install python3-dev -y
 ```
-## Project Instructions
+Restart your terminal to ensure `uv` is available.
 
-This section should contain all the student deliverables for this project.
+## Environment Setup
+
+From the repository root (or the `project/` directory):
+```
+uv python pin 3.12.3
+uv init
+uv sync
+uv add ipykernel pip
+uv pip install -r requirements.txt
+```
+
+## Run the Project
+
+- Open `project/starter/gen_ai_fundamentals_project_starter.ipynb` in Jupyter and select the `.venv` kernel.
+- Execute cells in order. The notebook installs any remaining Python dependencies needed for training and evaluation.
+
 
 ## Built With
 
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
-
-Include all items used to build project.
+- PyTorch, Transformers, Unsloth, vLLM, TRL
 
 ## License
-[License](../LICENSE.md)
+
+See `LICENSE.md`.

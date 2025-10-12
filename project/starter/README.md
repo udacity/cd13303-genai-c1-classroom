@@ -1,15 +1,15 @@
-# Solution Folder
+# Starter Folder
 
-This folder contains the reference solution notebook for the GenAI C1 project.
+Use this notebook to complete the GenAI C1 project: teach an instruction‑tuned LLM to reason step‑by‑step (letter counting with GRPO).
 
-- Main file: `project/solution/gen_ai_fundamentals_project_solution.ipynb`
+- Main file: `project/starter/gen_ai_fundamentals_project_starter.ipynb`
 
 ## Environment and Hardware
 
 - Single "T4 Tesla" GPU with 16GB VRAM (e.g., AWS `g4dn.xlarge`).
 - Tested with NVIDIA driver 575.57.08 and CUDA 12.9.1 on Ubuntu 24.04 x86_64.
 
-Install driver + CUDA only if you are sure they are not already installed. If you can run `nvidia-smi` you already have it installed.
+Install driver + CUDA only if you are sure they are not already installed, or if you are using an ephemeral cloud instance:
 ```
 sudo apt update && sudo apt install gcc make -y
 wget https://developer.download.nvidia.com/compute/cuda/12.9.1/local_installers/cuda_12.9.1_575.57.08_linux.run
@@ -28,11 +28,7 @@ uv python pin 3.12.3
 uv init
 uv sync
 uv add ipykernel pip
-uv pip install -r requirements.txt --no-deps
+uv pip install -r requirements.txt
 ```
 
-Open and run the solution notebook with the `.venv` kernel.
-
-## Notes
-
-- The solution uses Unsloth, TRL (GRPO), and vLLM for inference. Package versions are pinned in `requirements.txt`.
+Open and run the starter notebook with the `.venv` kernel.
