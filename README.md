@@ -4,33 +4,33 @@ This repo is meant to be used to keep things organized during content developmen
 
 ## Folder Structure
 
-### Lesson Folder
+### module Folder
 
-This repo contains a folder for each `lesson` and one `project` folder.
+This repo contains a folder for each `module` and one `project` folder.
 
 Example
 ```
-lesson-1-hello
-lesson-2-world
-lesson-3-foo
-lesson-4-bar
+module-1-hello
+module-2-world
+module-3-foo
+module-4-bar
 project
 ```
 
-Each `lesson` folder is named using the naming convention of `lesson-#-name-of-lesson`.
+Each `module` folder is named using the naming convention of `module-#-name-of-module`.
 
 Example
 ```
-lesson-1-hello
+module-1-hello
 ```
 
-Four lesson folders have been provided as a template; However, you may need to add more or possibly use less than four depending on what is needed.
+Four module folders have been provided as a template; However, you may need to add more or possibly use less than four depending on what is needed.
 
-If you require an additional lesson folder, you can make a copy of the folder and paste it into the root directory.
+If you require an additional module folder, you can make a copy of the folder and paste it into the root directory.
 
 ### Exercises Folder
 
-Each `lesson` folder contains an `exercises` folder. This `exercises` folder should contain all files and instructions necessary for the exercises along with the solution. The solutions for these exercises will be shared with students. See the `README` in the `exercises` folder for information about folder structure.
+Each `module` folder contains an `exercises` folder. This `exercises` folder should contain all files and instructions necessary for the exercises along with the solution. The solutions for these exercises will be shared with students. See the `README` in the `exercises` folder for information about folder structure.
 
 ### Project Folder
 
