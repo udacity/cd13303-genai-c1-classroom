@@ -55,6 +55,49 @@ The Generative AI Nanodegree program provides comprehensive training in modern g
 └── README.md
 ```
 
+## Requirements and Dependencies
+
+This repository includes three requirements files to help you set up the necessary dependencies:
+
+### Core Dependencies
+- **`requirements.txt`** - Contains all the core Python packages needed for the course, including Jupyter, OpenAI, transformers, and other essential libraries.
+
+### PyTorch Dependencies
+Choose the appropriate PyTorch installation based on your hardware:
+
+- **`requirements-torch-cpu.txt`** - PyTorch installation for CPU-only systems
+  - Use this if you don't have a CUDA-compatible GPU
+  - Includes CPU-optimized versions of torch, torchaudio, and torchvision
+
+- **`requirements-torch-gpu.txt`** - PyTorch installation for GPU systems
+  - Use this if you have a CUDA-compatible GPU for faster training
+  - Includes GPU-accelerated versions of torch, torchaudio, and torchvision
+
+### Installation Instructions
+
+1. **Install core dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Install PyTorch (choose one):**
+   
+   For CPU-only systems:
+   ```bash
+   pip install -r requirements-torch-cpu.txt
+   ```
+   
+   For GPU systems:
+   ```bash
+   pip install -r requirements-torch-gpu.txt
+   ```
+
+3. **Verify your installation:**
+   ```python
+   import torch
+   print(f"PyTorch version: {torch.__version__}")
+   print(f"CUDA available: {torch.cuda.is_available()}")
+   ```
 
 ## Course Materials
 
