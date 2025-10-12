@@ -17,7 +17,7 @@ Key notebooks and files:
 - NVIDIA driver: 575.57.08
 - CUDA: 12.9.1
 
-Install driver + CUDA toolkit only if you are sure drivers/CUDA are not already installed on your system, or if you are using an ephemeral cloud instance that resets between sessions:
+Install driver + CUDA toolkit only if you are sure drivers/CUDA are not already installed on your system (if you can run nvidia-smi, you have them installed definitely).
 ```
 sudo apt update && sudo apt install gcc make -y
 wget https://developer.download.nvidia.com/compute/cuda/12.9.1/local_installers/cuda_12.9.1_575.57.08_linux.run
@@ -29,7 +29,6 @@ sudo sh cuda_12.9.1_575.57.08_linux.run --silent --toolkit --driver --no-drm
 Install uv and Python headers:
 ```
 curl -LsSf https://astral.sh/uv/install.sh | sh
-sudo apt update && sudo apt install python3-dev -y
 ```
 Restart your terminal to ensure `uv` is available.
 
@@ -41,7 +40,7 @@ uv python pin 3.12.3
 uv init
 uv sync
 uv add ipykernel pip
-uv pip install -r requirements.txt
+uv pip install -r requirements.txt  --no-deps
 ```
 
 ## Run the Project
