@@ -1,37 +1,158 @@
-# Purpose of This Repo
+# Udacity Generative AI Nanodegree - Course Materials
 
-This repo is meant to be used to keep things organized during content development and act as the source of truth for all projects and exercises related to this course.
+This repository contains the complete course materials for the Udacity Generative AI Nanodegree program. It includes hands-on exercises, projects, and comprehensive learning resources covering the fundamentals of generative AI and large language models.
 
-## Folder Structure
+## Course Overview
 
-### module Folder
+The Generative AI Nanodegree program provides comprehensive training in modern generative AI technologies, from foundational concepts to advanced implementation techniques. Students will learn to build, evaluate, and deploy generative AI applications using state-of-the-art tools and frameworks.
 
-This repo contains a folder for each `module` and one `project` folder.
+## Course Modules
 
-Example
+### Module 3: Applications of Generative AI
+- **Focus**: Translating real-world problems into generative AI workflows
+- **Exercise**: LLM-Assisted Merge Sort Workshop
+- **Skills**: Prompt engineering, code generation, iterative refinement
+
+### Module 5: Building Applications Using Foundation Models
+- **Focus**: Turning general-purpose foundation models into targeted applications
+- **Exercise**: LLM Spam Classifier Lab
+- **Skills**: Application design, dataset preparation, prompt optimization
+
+### Module 8: Implementing Evaluations for Generative AI Models
+- **Focus**: Comprehensive evaluation strategies for generative AI systems
+- **Exercise**: Gen AI Evaluation Medley
+- **Skills**: Model evaluation, metrics design, quality assessment
+
+### Module 10: Implementing Neural Networks Using PyTorch
+- **Focus**: Deep learning fundamentals and neural network implementation
+- **Exercise**: Optimizer Bakeoff
+- **Skills**: PyTorch, optimization algorithms, neural network training
+
+### Module 12: Generating Text Using LLMs
+- **Focus**: Text generation techniques and language model applications
+- **Exercise**: Generating One Token at a Time
+- **Skills**: Text generation, tokenization, language modeling
+
+### Module 14: Implementing Role-Based Prompting in Python
+- **Focus**: Advanced prompting strategies and role-based interactions
+- **Exercise**: Role-based prompting implementations
+- **Skills**: Prompt engineering, system design, conversation management
+
+### Module 16: Applying PEFT on Foundation Models
+- **Focus**: Parameter-Efficient Fine-Tuning techniques
+- **Exercise**: Teach an LLM to Spell with SFT
+- **Skills**: Fine-tuning, adapter methods, model adaptation
+
+### Module 18: Reinforcement Fine-Tuning on Foundation Models
+- **Focus**: Reinforcement learning for language model optimization
+- **Exercise**: Teach an LLM to Spell with GRPO
+- **Skills**: RLHF, policy optimization, reward modeling
+
+## Repository Structure
+
 ```
-module-1-hello
-module-2-world
-module-3-foo
-module-4-bar
-project
+├── module-3-applications-of-generative-ai/
+│   ├── exercises/
+│   │   ├── starter/          # Student starting materials
+│   │   └── solution/         # Complete solutions
+│   └── README.md
+├── module-5-building-applications-using-foundation-models/
+│   ├── exercises/
+│   │   ├── starter/
+│   │   └── solution/
+│   └── README.md
+├── module-8-implementing-evaluations-for-generative-ai-models/
+│   ├── exercises/
+│   │   ├── starter/
+│   │   └── solution/
+│   └── README.md
+├── module-10-implementing-neural-networks-using-pytorch/
+│   ├── exercises/
+│   │   ├── starter/
+│   │   └── solution/
+│   └── README.md
+├── module-12-generating-text-using-llms/
+│   ├── exercises/
+│   │   ├── starter/
+│   │   └── solution/
+│   └── README.md
+├── module-14-implementing-role-based-prompting-in-python/
+│   ├── exercises/
+│   │   ├── starter/
+│   │   └── solution/
+│   └── README.md
+├── module-16-applying-peft-on-foundation-models/
+│   ├── exercises/
+│   │   ├── starter/
+│   │   └── solution/
+│   └── README.md
+├── module-18-reinforcement-fine-tuning-on-foundation-models/
+│   ├── exercises/
+│   │   ├── starter/
+│   │   └── solution/
+│   └── README.md
+├── project/
+│   ├── starter/              # Capstone project materials
+│   └── solution/
+└── README.md
 ```
 
-Each `module` folder is named using the naming convention of `module-#-name-of-module`.
+## Getting Started
 
-Example
-```
-module-1-hello
-```
+1. **Clone the repository**:
+   ```bash
+   git clone <repository-url>
+   cd cd13303-genai-c1-classroom
+   ```
 
-Four module folders have been provided as a template; However, you may need to add more or possibly use less than four depending on what is needed.
+2. **Navigate to a specific module**:
+   ```bash
+   cd module-3-applications-of-generative-ai
+   ```
 
-If you require an additional module folder, you can make a copy of the folder and paste it into the root directory.
+3. **Read the module README** for specific setup instructions and prerequisites
 
-### Exercises Folder
+4. **Start with the exercises**:
+   - Open the `starter/` folder for hands-on exercises
+   - Review the `solution/` folder for reference implementations
 
-Each `module` folder contains an `exercises` folder. This `exercises` folder should contain all files and instructions necessary for the exercises along with the solution. The solutions for these exercises will be shared with students. See the `README` in the `exercises` folder for information about folder structure.
+## Prerequisites
 
-### Project Folder
+- **Python 3.10+** with Jupyter Lab/Notebook support
+- **Access to LLM APIs** (OpenAI)
+- **Basic Python knowledge** including data handling and testing
+- **PyTorch** (for neural network modules)
+- **Familiarity with machine learning concepts**
 
-The `project` folder should contain all files and instructions necessary for setup. If possible, a set of instructions should be provided for both Udacity workspaces and a way to work locally (for both MacOS and Windows OS). At a minimum, one set of instructions should be provided. A `README` template has been provided in the project folder. This template layout should be used to write your README.
+## Key Learning Outcomes
+
+By completing this course, students will be able to:
+
+- **Identify opportunities** where generative AI can accelerate software development
+- **Design and implement** end-to-end foundation model workflows
+- **Evaluate and optimize** generative AI model performance
+- **Apply advanced techniques** including fine-tuning and reinforcement learning
+- **Build production-ready** generative AI applications
+
+## Course Materials
+
+Each module contains:
+- **Comprehensive README** with learning objectives and setup instructions
+- **Hands-on exercises** with starter code and complete solutions
+- **Demo notebooks** showcasing key concepts
+- **Detailed documentation** for all exercises and projects
+
+## License
+
+This educational content is licensed under the **Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)** License. See [LICENSE.md](LICENSE.md) for full details.
+
+## Support
+
+For questions about course content or technical issues:
+- Review the module-specific README files
+- Check the exercise solutions for reference implementations
+- Consult the Udacity Generative AI Nanodegree resources
+
+---
+
+**Note**: This repository contains educational materials for the Udacity Generative AI Nanodegree program. All content is designed for learning purposes and follows best practices in generative AI development.
