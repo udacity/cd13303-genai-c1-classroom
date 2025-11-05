@@ -111,7 +111,7 @@ partial-json-parser==0.2.1.1.post6
 peft==0.17.1
 pexpect==4.9.0
 pillow==11.3.0
-pip==25.2
+pip==25.3
 platformdirs==4.4.0
 prometheus-client==0.23.1
 prometheus-fastapi-instrumentator==7.1.0
