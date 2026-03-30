@@ -1,0 +1,9 @@
+ipykernel==6.30.1
+litellm==1.79.0
+pandas==2.3.3
+numpy==2.3.4
+evaluate==0.4.6
+sentence_transformers==3.0.1
+rouge_score==0.1.2
+torchvision==0.24.0
+matplotlib==3.10.7
