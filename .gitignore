@@ -208,7 +208,3 @@ __marimo__/
 
 
 .DS_Store
-
-# Track specific VS Code settings for student environments to auto-select kernels
-!**/.vscode/
-!**/.vscode/settings.json
