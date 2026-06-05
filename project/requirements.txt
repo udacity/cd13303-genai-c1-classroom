@@ -122,7 +122,7 @@ psutil==7.1.0
 ptyprocess==0.7.0
 pure-eval==0.2.3
 py-cpuinfo==9.0.0
-pyarrow==21.0.0
+pyarrow==23.0.1
 pybase64==1.4.2
 pycountry==24.6.1
 pycparser==2.23
