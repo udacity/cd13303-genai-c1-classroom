@@ -170,7 +170,7 @@ torchvision==0.22.1
 tornado==6.5.2
 tqdm==4.67.1
 traitlets==5.14.3
-transformers==4.55.4
+transformers==5.5.0
 triton==3.2.0
 trl==0.22.2
 typeguard==4.4.4
