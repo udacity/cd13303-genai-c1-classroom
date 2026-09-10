@@ -1,10 +1,10 @@
-# Udacity Generative AI Nanodegree - Course Materials
+# Generative AI Fundamentals - Course Materials
 
-This repository contains the complete course materials for the Udacity Generative AI Nanodegree program. It includes hands-on exercises, projects, and comprehensive learning resources covering the fundamentals of generative AI and large language models.
+This repository contains the complete course materials for the Udacity Generative AI Fundamentals course. It includes hands-on exercises, projects, and comprehensive learning resources covering the fundamentals of generative AI and large language models.
 
 ## Course Overview
 
-The Generative AI Nanodegree program provides comprehensive training in modern generative AI technologies, from foundational concepts to advanced implementation techniques. Students will learn to build, evaluate, and deploy generative AI applications using state-of-the-art tools and frameworks.
+The Generative AI Fundamentals course provides comprehensive training in modern generative AI technologies, from foundational concepts to advanced implementation techniques. Students will learn to build, evaluate, and deploy generative AI applications using state-of-the-art tools and frameworks.
 
 ## Repository Structure
 
@@ -112,4 +112,4 @@ For questions about course content or technical issues:
 
 ---
 
-**Note**: This repository contains educational materials for the Udacity Generative AI Nanodegree program. All content is designed for learning purposes and follows best practices in generative AI development.
+**Note**: This repository contains educational materials for the Udacity Generative AI Fundamentals course. All content is designed for learning purposes and follows best practices in generative AI development.
